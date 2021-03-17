@@ -1,8 +1,8 @@
-import { LoginScreen } from './components/login-screen';
+import Routes from './Routes';
 
 function App() {
   return (
-    <LoginScreen />
+    <Routes />
   );
 }
 
