@@ -17,7 +17,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy-github": "npm run build && rimraf docs && renamer --find build --replace docs *"
   },
   "eslintConfig": {
     "extends": [
@@ -36,5 +37,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "renamer": "^3.0.2",
+    "rimraf": "^3.0.2"
   }
 }
