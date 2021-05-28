@@ -6,7 +6,7 @@ import { logout } from '../../utils/auth'
 export default function Navigation(props) {
   return (
     <div>
-      <p><Link to="/">Home</Link> | <Link to="/clients">Clients</Link> | <a href='/' onClick={logout}>Logout</a></p>
+      <p><Link to="/">Home</Link> | <Link to="/clients">Clients</Link> | <a href='#' onClick={logout}>Logout</a></p>
     </div>
   );
 }
