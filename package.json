@@ -18,7 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy-github": "npm run build && rimraf docs && renamer --find build --replace docs *"
+    "build-git": "rimraf docs && npm run build && renamer --find build --replace docs *"
   },
   "eslintConfig": {
     "extends": [
